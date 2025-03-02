@@ -16,6 +16,7 @@ TEXTS = [
     buff-to-white beds of the Green River Formation,
     which are about 300 feet thick.'''
 ]
-selected_text = int(input("Enter a number btw. 1 and 3 to select:"))
+select_text = int(input("Enter a number btw. 1 and 3 to select:"))
+selected_text = TEXTS[select_text - 1]
 for text in selected_text:
     print(text)
