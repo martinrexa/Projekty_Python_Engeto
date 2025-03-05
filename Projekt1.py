@@ -49,6 +49,7 @@ if username in usernames and usernames[username] == password:
     print("-" * 30)
 else:
     print("Unregistered user. Terminating the program..")
+    exit()
 
 # nachystané proměnné pro analýzu jednotlivých textů
 text1 = list(TEXTS[0].split())
